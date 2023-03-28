@@ -9,13 +9,17 @@ class Square:
 
     def __init__(self, size):
         """__init__
+
+
         The __init__ method initializes the size value
         of the square.
         Attributes:
             size (int): The size of the square.
+
+
         """
-      
-        self._size = size
+
+        self.__size = size
         """This is to assign size as a private attribute"""
         
         pass
