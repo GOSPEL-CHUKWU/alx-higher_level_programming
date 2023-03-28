@@ -1,24 +1,22 @@
 #!/usr/bin/python3
+
 """Square Class
-A Square Class
+This is a Square Class
 """
 
-
 class Square:
-     """This is a Square Class that returns the size"""
-     
-    def __init__(self, size=0):
+    """This is a Square Class that returns the size"""
+    def __init__(self,size=0):
         """__init__
         The __init__ method initializes the size value of the square.
         Attributes:
             size (:obj:`int`, optional): The size of the square.
         Raises:
             TypeError: If `size` type is not `int`.
-            ValueError: If `size` is less than `0`.
-        """
+            ValueError: If `size` is less than `0`."""
 
         if type(size) is not int:
-            raise TypeError('size must be an integer')
+            raise TypeError('size must be integer')
 
         if size < 0:
             raise ValueError('size must be >= 0')
