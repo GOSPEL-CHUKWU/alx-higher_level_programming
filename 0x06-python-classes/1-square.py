@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
 """Square Class
-This is a Square Class"""
+This is a Square Class
+"""
 
 class Square:
     """This is a Square Class that returns the size"""
