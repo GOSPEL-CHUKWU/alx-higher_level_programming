@@ -1,30 +1,27 @@
 #!/usr/bin/python3
 """
-Square Class
+No module imported
 """
+
 
 class Square:
     """
-    This is a Square Class,
-    that returns the size
+    Defines a square by private attribute size,
+    and instantiation with optional size:
+    def __init__(self, size=0):
     """
     def __init__(self, size=0):
         """
-        __init__
-        The __init__ method initializes the,
-        size value of the square.
-        Attributes:
-            size (:obj:`int`, optional): 
-               The size of the square.
-        Raises:
-            TypeError: If `size` type is not `int`.
-            ValueError: If `size` is less than `0`.
+        private instance attribute
+        parameters
+        ------------------
+        size : integer else TypeError
+        if size less than 0, raise value error
         """
         self.__size = size
         try:
             assert type(size) == int
         except:
             raise TypeError("size must be an integer")
-
         if size < 0:
-            raise ValueError('size must be >= 0')
+            raise ValueError("size must be >= 0")
