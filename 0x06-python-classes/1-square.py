@@ -17,3 +17,4 @@ class Square:
       
         self.__size = size
         """This is to assign size as a private attribute"""
+        pass
