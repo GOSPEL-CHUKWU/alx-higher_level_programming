@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 
-"""python3 -c 'print(__import__("my_module").__doc__)'"""
+"""This is an Square Class Module"""
 
 class Square:
-    """python3 -c 'print(__import__("my_module").MyClass.__doc__)'"""
-    
+    """This is an empty class and a class is like a blueprint"""
     pass;
