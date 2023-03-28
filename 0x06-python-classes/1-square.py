@@ -15,6 +15,7 @@ class Square:
             size (int): The size of the square.
         """
       
-        self.__size = size
+        self._size = size
         """This is to assign size as a private attribute"""
+        
         pass
