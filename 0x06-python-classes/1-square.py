@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-"""This is a Square Class"""
+"""Square Class
+This is a Square Class"""
 
 class Square:
     """This is a Square Class that returns the size"""
@@ -16,9 +17,9 @@ class Square:
             ValueError: If `size` is less than `0`."""
 
         if type(size) is not int:
-            raise TypeError('value must be integer')
+            raise TypeError('size must be integer')
 
         if size < 0:
-            raise ValueError('value must be >= 0')
+            raise ValueError('size must be >= 0')
 
         self.__size = size
