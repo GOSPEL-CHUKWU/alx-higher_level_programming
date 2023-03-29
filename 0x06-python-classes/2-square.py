@@ -18,7 +18,7 @@ class Square:
         size : integer else TypeError
         if size less than 0, raise value error
         """
-        self.__size = size
+        self.__size = size #:self.__size assigns the size as a private attribute
         try:
             assert type(size) == int
         except:
